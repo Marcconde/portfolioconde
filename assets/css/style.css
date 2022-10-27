@@ -1,0 +1,645 @@
+/*navigation bg color and color of text*/
+nav{
+	background-color: #2e2e36;
+	color: white;
+}
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*Split the links or text evenly*/
+.links ul li{
+	display: inline;
+
+}
+.links ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 0 38px 0 38px;
+}
+.links{
+	margin-top: 15px;
+}
+.links i{
+	padding-right: 5px;
+}
+/*logo part*/
+.logo{
+	background-image: url('../img/logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 44px;
+	width: 70px;
+}
+
+/*background home*/
+.home{
+	background-image: url('../img/homebg.png');
+	background-size: cover;
+	color: white;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+/*background text*/
+.home h1{
+	font-size: 64px;
+    font-family: sans-serif;
+    padding-top: 245px;
+    padding-left: 105px;
+}
+.home h4{
+	padding-left: 109px;
+	color: #fb723e;
+}
+.home h4 span{
+	color: white;
+}
+/*buttons of home*/
+.home .hireme{
+	background-color: #2e2e36;
+	border-color: #2e2e36;
+	margin-left: 109px;
+	margin-top: 22px;
+}
+.home .watchvideo{
+	border-color: #fb723e;
+	margin-left: 18px;
+	margin-top: 22px;
+}
+
+/*about section or more specifically the orange block and text*/
+.about{
+	height: 933px;
+	margin-top: 40px;
+    margin-left: 573px;
+}
+.about h1{
+	color:  #2e2e36;
+	margin-left: 9px;
+}
+.orange{
+	background-color: #fb723e;
+    width: 178px;
+    height: 54px;
+    margin-top: -56px;
+    margin-left: -12px;
+}
+
+/*profile picture of the web developer and description*/
+.picture{
+	background-image: url('../img/profilepicture.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100vh;
+	margin-left: -357px;
+	margin-top: 82px;
+	
+}
+.description li{
+	font-size: 15px;
+    margin-bottom: -65px;
+    margin-top: 10px;
+    margin-left: 6px;
+    list-style: none;
+    padding-top: 95px;
+}
+.description i{
+	color: #fb723e;
+	padding-right: 7px;
+}
+/*facts orange block and text*/
+.facts{
+	height: 262px;
+	margin-top: 40px;
+    margin-left: 573px;
+}
+.facts h1{
+	color:  #2e2e36;
+	margin-left: 17px;
+}
+.orange2{
+	background-color: #fb723e;
+    width: 178px;
+    height: 54px;
+    margin-bottom: 60px;
+    margin-top: -56px;
+    margin-left: -12px;
+}
+.facts li{
+	font-size: 30px;
+	list-style: none;
+	margin-left: -400px;
+}
+.facts p{
+    font-size: 30px;
+    margin-left: -448px;
+}
+
+/*resume section*/
+.resumee{
+	background-image: url('../img/resumebg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 933px;
+}
+.orange3{
+	background-color: #fb723e;
+    width: 178px;
+    height: 54px;
+    margin-top: -56px;
+    margin-left: 457px;
+}
+.resumee .title{
+	color:  #2e2e36;
+	padding-top: 44px;
+    margin-left: 468px;
+}
+.resumee .check{
+	color: white;
+	text-align: center;
+	font-size: 62px;
+}
+.resumee .sum{
+	color: white;
+	font-size: 42px;
+    margin-left: 61px;
+}
+.resumee .career{
+	color: #fb723e;
+	font-size: 20px;
+	margin-bottom: 28px;
+	margin-left: 91px;
+}
+.resumee .firsttext{
+	color: white;
+	font-size: 15px;
+	font-weight: bolder;
+	margin-left: 93px;
+}
+.lollipop{
+	background-image: url('../img/lollipop.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 48px;
+	margin-top: -160px;
+	height: 185px;
+	width: 70px;
+}
+.resumee .educ{
+	color: white;
+	font-size: 42px;
+    margin-left: 61px;
+}
+.resumee .bachelor{
+	color: #fb723e;
+	font-size: 20px;
+	margin-bottom: 28px;
+	margin-left: 91px;
+}
+.resumee .date{
+	color: #fb723e;
+	border-color: #fb723e;
+	margin-left: 92px;
+	margin-top: -16px;
+}
+.resumee .secondtext{
+	color: white;
+	font-size: 15px;
+	font-weight: bolder;
+	margin-top: 13px;
+	margin-left: 93px;
+}
+.lollipop2{
+	background-image: url('../img/lollipop2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 48px;
+	margin-top: -177px;
+	height: 185px;
+	width: 70px;
+}
+.resumee .info{
+	color: #fb723e;
+	font-size: 20px;
+	padding-top: 98px;
+	margin-bottom: 28px;
+	margin-left: 91px;
+}
+.resumee .date2{
+	color: #fb723e;
+	border-color: #fb723e;
+	margin-left: 92px;
+	margin-top: -16px;
+}
+.resumee .thirdtext{
+	color: white;
+	font-size: 15px;
+	font-weight: bolder;
+	margin-top: 13px;
+	margin-left: 93px;
+}
+.lollipop3{
+	background-image: url('../img/lollipop.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 48px;
+	margin-top: -177px;
+	height: 185px;
+	width: 70px;
+}
+
+/*services part*/
+.services{
+	background-color: #2e2e36;
+	height: 933px;
+	padding-top: 40px;
+}
+.orange4{
+	background-color: #fb723e;
+    width: 194px;
+    height: 54px;
+    margin-top: -57px;
+    margin-left: 459px;
+}
+.services .title{
+	margin-top: 16px;
+	margin-left: 470px;
+}
+.services .servoff{
+	color: white;
+	text-align: center;
+	font-size: 62px;
+}
+.services .box1{
+	background-image: url('../img/box1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 45vh;
+	margin-left: 108px;
+	margin-top: 23px;
+	
+}
+.services .youtubelogo1{
+	background-image: url('../img/youtubelogo1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 60px;
+	margin-left: 170px;
+    margin-top: -260px;
+	width: 91px;
+}
+.services .banner{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 25px;
+    margin-left: -114px;
+	font-size: 18px;
+}
+.services .bannertext{
+	margin-left: -112px;
+    margin-top: 25px;
+    color: white;
+    font-weight: bolder;
+    font-size: 11px;
+    text-align: center;
+}
+.services .box2{
+	background-image: url('../img/box2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 45vh;
+	margin-left: 329px;
+	margin-top: -238px;
+	
+}
+.services .youtubelogo2{
+	background-image: url('../img/youtubelogo2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 60px;
+	margin-left: 392px;
+    margin-top: -260px;
+	width: 91px;
+}
+.services .thumbnail{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 25px;
+    margin-left: 329px;
+	font-size: 18px;
+}
+.services .thumbnailtext{
+	margin-left: 329px;
+    margin-top: 25px;
+    color: white;
+    font-weight: bolder;
+    font-size: 11px;
+    text-align: center;
+}
+.services .box3{
+	background-image: url('../img/box3.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 45vh;
+	margin-left: 329px;
+	margin-top: 90px;
+	
+}
+.services .socialmedia{
+	background-image: url('../img/socialmedia.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 60px;
+	margin-left: 402px;
+    margin-top: -260px;
+	width: 91px;
+}
+.services .social{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 25px;
+    margin-left: 329px;
+	font-size: 18px;
+}
+.services .socialmediatext{
+	margin-left: 329px;
+    margin-top: 25px;
+    color: white;
+    font-weight: bolder;
+    font-size: 11px;
+    text-align: center;
+}
+.services .box4{
+	background-image: url('../img/box4.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 45vh;
+	margin-left: 35px;
+	margin-top: 23px;
+}
+.services .photomanipulation{
+	background-image: url('../img/photomanipulation.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 60px;
+	margin-left: 104px;
+    margin-top: -260px;
+	width: 91px;
+}
+.services .photo{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 25px;
+    margin-left: -261px;
+	font-size: 18px;
+}
+.services .phototext{
+	margin-left: -260px;
+    margin-top: 25px;
+    color: white;
+    font-weight: bolder;
+    font-size: 11px;
+    text-align: center;
+}
+.services .box5{
+	background-image: url('../img/box5.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 45vh;
+	margin-left: 256px;
+	margin-top: -238px;
+	
+}
+.services .webdesign{
+	background-image: url('../img/webdesign.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 60px;
+	margin-left: 324px;
+    margin-top: -260px;
+	width: 91px;
+}
+.services .web{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 25px;
+    margin-left: 182px;
+	font-size: 18px;
+}
+.services .webtext{
+	margin-left: 186px;
+    margin-top: 46px;
+    color: white;
+    font-weight: bolder;
+    font-size: 11px;
+    text-align: center;
+}
+.services .box6{
+	background-image: url('../img/box6.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 45vh;
+	margin-left: 35px;
+	margin-top: 90px;
+}
+.services .logodesign{
+	background-image: url('../img/logodesign.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 60px;
+	margin-left: 110px;
+    margin-top: -260px;
+	width: 91px;
+}
+.services .logodes{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 25px;
+    margin-left: -261px;
+	font-size: 18px;
+}
+.services .logodestext{
+	margin-left: -260px;
+    margin-top: 28px;
+    color: white;
+    font-weight: bolder;
+    font-size: 11px;
+    text-align: center;
+}
+
+/*portfolio part*/
+.portfolio{
+	background-color: white;
+	height: 1250px;
+	padding-top: 40px;
+}
+.orange5{
+	background-color: #fb723e;
+    width: 235px;
+    height: 54px;
+    margin-top: -57px;
+    margin-left: 446px;
+}
+.portfolio .title{
+	margin-top: 16px;
+	margin-left: 457px;
+}
+.portfolio .checkport{
+	color: #2e2e36;;
+	text-align: center;
+	font-size: 62px;
+}
+.portfolio .portlinks ul li{
+	display: inline;
+}
+.portfolio .portlinks ul li {
+	color: #2e2e36;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 0 35px 0 35px;
+}
+.portfolio .portlinks{
+	margin-top: 25px;
+}
+.portfolio .youtubebanner1{
+	background-image: url('../img/youtubebanner1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 20vh;
+	margin-left: 80px;
+	margin-top: 40px;
+}
+.portfolio .youtubebanner2{
+	background-image: url('../img/youtubebanner2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 377px;
+	height: 20vh;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+.portfolio .facebookdes{
+	background-image: url('../img/facebookdes.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 377px;
+	height: 25vh;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+.portfolio .businesscarddes{
+	background-image: url('../img/businesscarddes.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 377px;
+	height: 37vh;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+.portfolio .neoncity{
+	background-image: url('../img/neoncity.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 43vh;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+.portfolio .youtubethumbnail{
+	background-image: url('../img/youtubethumbnail.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 43vh;
+	margin-left: 50px;
+	margin-top: 7px;
+}
+.portfolio .logodess{
+	background-image: url('../img/logodess.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 31vh;
+	margin-left: 50px;
+	margin-top: -30px;
+}
+.portfolio .webdess{
+	background-image: url('../img/webdess.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 320px;
+	margin-top: -204px;
+	height: 31vh;
+}
+
+/*contacts part*/
+.contacts{
+	background-color: #2e2e36;
+	height: 307px;
+	padding-top: 40px;
+}
+.contacts .location{
+	color: white;
+	font-size: 30px;
+	margin-top: 13px;
+    margin-left: 80px;
+}
+.contacts i{
+	color: #fb723e;
+	margin-right: 20px;
+
+}
+.contacts .gmail{
+	color: white;
+	font-size: 30px;
+	margin-top: 50px;
+    margin-left: 80px;
+}
+.contacts .number{
+	color: white;
+	font-size: 30px;
+	margin-top: 50px;
+    margin-left: 80px;
+}
+.contacts .twitterlogo{
+	color: white;
+	font-size: 30px;
+	margin-top: 13px;
+    margin-left: 80px;
+}
+.contacts .facebooklogo{
+	color: white;
+	font-size: 30px;
+	margin-top: 50px;
+    margin-left: 80px;
+}
+
+/*all rights part*/
+.allrightsreserved{
+	background-color: #fb723e;
+	height: 164px;
+	padding-top: 40px;
+}
+.allrightsreserved .logo2{
+	background-image: url('../img/logo2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 75px;
+	width: 108px;
+	margin-top: -26px;
+	margin-left: 470px;
+}
+.allrightsreserved .allrightstext{
+	color: white;
+	font-size: 25px;
+	margin-left: 309px;
+    margin-top: 17px;
+}
